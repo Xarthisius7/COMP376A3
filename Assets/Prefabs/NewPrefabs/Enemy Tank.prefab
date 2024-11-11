@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4641605059955204219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 170154808006790111}
+  m_Layer: 0
+  m_Name: BulletPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &170154808006790111
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4641605059955204219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3367975217885744783}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &6359124470110560151
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 521919318, guid: 7558d0955df3e664d80312184e54e424, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 9197942971462275683, guid: 39217803921d3994491f6ca6a06fe84a, type: 3}
+    - target: {fileID: 8574103405454535904, guid: 7558d0955df3e664d80312184e54e424, type: 3}
+      propertyPath: m_Name
+      value: Enemy Tank1 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574103405454535904, guid: 7558d0955df3e664d80312184e54e424, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574103405454535907, guid: 7558d0955df3e664d80312184e54e424, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574103405454535907, guid: 7558d0955df3e664d80312184e54e424, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574103405454535907, guid: 7558d0955df3e664d80312184e54e424, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574103405454535907, guid: 7558d0955df3e664d80312184e54e424, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574103405454535907, guid: 7558d0955df3e664d80312184e54e424, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574103405454535907, guid: 7558d0955df3e664d80312184e54e424, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574103405454535907, guid: 7558d0955df3e664d80312184e54e424, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574103405454535907, guid: 7558d0955df3e664d80312184e54e424, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574103405454535907, guid: 7558d0955df3e664d80312184e54e424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574103405454535907, guid: 7558d0955df3e664d80312184e54e424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574103405454535907, guid: 7558d0955df3e664d80312184e54e424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7558d0955df3e664d80312184e54e424, type: 3}
+--- !u!4 &3367975217885744783 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8574103405780865304, guid: 7558d0955df3e664d80312184e54e424, type: 3}
+  m_PrefabInstance: {fileID: 6359124470110560151}
+  m_PrefabAsset: {fileID: 0}
